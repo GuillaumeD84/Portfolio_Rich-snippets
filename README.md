@@ -1,5 +1,5 @@
 # Portfolio - Rich snippets
-[> Page détaillé de l'exercice sur mon site <](neo-explorer.com/portfolio/rich-snippet "Page de l'exercice sur mon site")
+[> Page détaillé de l'exercice sur mon site <](http://neo-explorer.com/portfolio/rich-snippet "Page de l'exercice sur mon site")
 
 Petite exercice sur l'utilisation des métadonnées avec les microdata/JSON-LD pour obtenir sur Google un produit "Rich snippet" afin d'améliorer son rendu dans les moteurs de recherche.
 
