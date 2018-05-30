@@ -1,0 +1,148 @@
+body {
+  color: #444;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+
+  width: 1000px;
+  margin: auto;
+}
+
+header,
+footer {
+  background-color: #eee;
+}
+
+header {
+  font-weight: bold;
+
+  padding: 30px 0;
+}
+
+header h1 {
+  font-size: 1.8em;
+  font-family: 'Alex Brush', cursive;
+
+  padding-bottom: 0.2em;
+}
+
+main {
+  width: 85%;
+  margin: 70px auto 100px auto;
+
+  overflow: auto;
+}
+
+main div {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+}
+
+main .productImage {
+  text-align: left;
+}
+
+main .productImage img {
+  max-width:80%;
+  height:auto;
+}
+
+main .productDesc {
+  text-align: right;
+  float: right;
+}
+
+/* Dans le cas d'un écran plus petit que 480px, comme pour un téléphone par exemple */
+/* A été combiné avec la balise <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> dans le head */
+@media only screen and (max-width: 479px){
+    main div {
+      display: block;
+      margin: auto;
+    }
+    main .productDesc {
+      float: none;
+    }
+}
+
+main .productDesc h1 {
+  font-size: 2em;
+  font-weight: bold;
+
+  padding-bottom: 5px;
+}
+
+main .productDesc h2 {
+  font-weight: bold;
+
+  padding-bottom: 15px;
+}
+
+main .productDesc h2.productPrice {
+  font-size: 1.5em;
+}
+
+main .productDesc h3 {
+  padding-bottom: 15px;
+}
+
+main .productDesc h3.productStock {
+  color: green;
+}
+
+main .productScore,
+main .productScore h3 {
+  margin: 0;
+  padding: 0;
+}
+
+main .productScore {
+  position: relative;
+  width: 100px;
+  margin-bottom: 5px;
+
+  background: url('../star-rating.png') no-repeat;
+  background-position: 100% -11px;
+}
+
+main .productScore .productScoreNumber {
+  text-align: left;
+}
+
+main .productScore .productScoreStars {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+}
+
+main .productDesc p {
+  text-align: left;
+  padding: 5px 0;
+}
+
+input {
+  font-size: 1.1em;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #08c5f6;
+  color: white;
+  outline: none;
+
+  padding: 10px 25px;
+}
+
+input:hover {
+  box-shadow: 0 0 6px black;
+}
+
+input:active {
+  background-color: gold;
+  color: black;
+}
+
+footer {
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 15px 0;
+}
